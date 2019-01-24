@@ -220,6 +220,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SiteGroupNames.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Business\" />
@@ -228,10 +229,31 @@
     <Folder Include="Models\Media\" />
     <Folder Include="Models\Pages\" />
     <Folder Include="Models\Properties\" />
-    <Folder Include="Static\" />
     <Folder Include="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Static\images\demo\224x310.gif" />
+    <Content Include="Static\images\demo\240x90.gif" />
+    <Content Include="Static\images\demo\290x100.gif" />
+    <Content Include="Static\images\demo\60x60.gif" />
+    <Content Include="Static\images\demo\80x80.gif" />
+    <Content Include="Static\images\demo\avatar.gif" />
+    <Content Include="Static\images\demo\imgl.gif" />
+    <Content Include="Static\images\demo\imgr.gif" />
+    <Content Include="Static\images\demo\index.html" />
+    <Content Include="Static\images\index.html" />
+    <Content Include="Static\layout\index.html" />
+    <Content Include="Static\layout\styles\forms.css" />
+    <Content Include="Static\layout\styles\images\black_file.gif" />
+    <Content Include="Static\layout\styles\images\index.html" />
+    <Content Include="Static\layout\styles\images\red_file.gif" />
+    <Content Include="Static\layout\styles\index.html" />
+    <Content Include="Static\layout\styles\layout.css" />
+    <Content Include="Static\layout\styles\navi.css" />
+    <Content Include="Static\layout\styles\tables.css" />
+    <Content Include="Static\pages\full-width.html" />
+    <Content Include="Static\pages\index.html" />
+    <Content Include="Static\pages\style-demo.html" />
     <Content Include="Views\Web.config" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
